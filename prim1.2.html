@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function del_char_by_pos(value,pos){
+if ((value.length < pos)||pos<=0) return value;
+return (value.slice(0,pos-1)+value.slice(pos));
+}
+    </script>
+</body>
+</html>

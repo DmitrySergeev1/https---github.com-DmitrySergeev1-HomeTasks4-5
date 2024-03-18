@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function DaysOfWeek(){
+            let day=prompt("Введите число,обозначающее день недели");
+            if(day==1){
+                return ("Понедельник");
+                
+            }
+              if(day==2){
+                return ("Вторник");
+                
+            }
+            else if(day==3){
+                return ("Среда");
+                
+            }
+            else if(day==4){
+                return ("Четверг");
+                
+            }
+            else if(day==5){               
+                return ("Пятница");
+                
+            }
+            else if(day==6){
+                return ("Суббота");
+                
+            }
+            else if(day==7){
+                return ("Воскресенье");
+                
+            }
+            else{
+                (isNaN(day) ||day!==1||day!==2||day!==3||day!==4||day!==5||day!==6||day!==7 )
+               return ("Некорректное значение");
+            }
+
+        }
+        alert(DaysOfWeek());
+    </script>
+</body>
+</html>
